@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.fundo-header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+
+
+.container-imagem {
+    width: 100%;
+}
+
+.img-container {
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    position: relative;
+}
+
+.img-container > img {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -65px;
+}
+
+
+.bem-vindo-secreto {
+    width: 100%;
+    padding: 20px;
+}
+
+.bem-vindo-secreto > span {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+
+.bem-vindo-secreto > span > span {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.links-containee {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.links-containee > ul {
+    text-align: center;
+    list-style: none;
+}
+
+
+
+.links-containee > ul > li > a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    min-width: 70px;
+    max-width: 200px;
+    background: #15a1ff;
+    margin: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.links-containee > ul > li > a:hover {
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 25px #15a1ff;
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
